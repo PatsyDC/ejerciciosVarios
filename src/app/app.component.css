@@ -1,0 +1,13 @@
+.card{
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+.red{
+  background-color: pink;
+}
+
+.blue{
+  background-color: blue;
+}
