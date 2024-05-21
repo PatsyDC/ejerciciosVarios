@@ -18,7 +18,10 @@ export class AppComponent {
   color: string = 'yellow';
   todos: string[] = ['hola', 'chau', 'patsy'];
   newTodo: string = '';
-  task: string[] = ['task', 'hi'];
+  task = [
+    {id:0, "name":"cena"},
+    {id:1, "name":"almuerzo"},
+  ];
 
   onchangeColor(color: string) {
     console.log('El color seleccionado es: ', color);
